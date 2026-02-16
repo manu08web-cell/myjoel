@@ -1,0 +1,275 @@
+---
+title: "For My Favorite Human 💕"
+output:
+  html_document:
+    self_contained: true
+    theme: null
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+messaging_start <- as.Date("2024-08-31")
+dating_start    <- as.Date("2024-11-25")
+
+days_messaging <- as.numeric(Sys.Date() - messaging_start)
+days_dating    <- as.numeric(Sys.Date() - dating_start)
+```
+
+<audio autoplay loop>
+  <source src="wildfire1.m4a" type="audio/mpeg">
+</audio>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #d16ba5, #ff9a9e, #ffc3a0);
+  font-family: 'Inter', sans-serif;
+  color: white;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 820px;
+  margin: auto;
+  padding: 70px 30px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.section {
+  margin: 45px 0;
+}
+
+.section p {
+  font-size: 19px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.love-list p {
+  margin: 6px 0;
+}
+
+button {
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  color: #c44569;
+  cursor: pointer;
+  margin: 18px 10px;
+  transition: 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+  background-color: #ffe6eb;
+}
+
+.hidden {
+  display: none;
+}
+
+#reasonsBox {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: rgba(255,255,255,0.15);
+  padding: 22px;
+  border-radius: 18px;
+}
+
+.reasons-list {
+  text-align: center;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+.reasons-list li {
+  margin: 8px 0;
+}
+
+#valentineBox {
+  margin-top: 30px;
+}
+
+#valentineButtons button {
+  min-width: 120px;
+}
+
+#valentineResult {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.heart {
+  position: fixed;
+  bottom: -10px;
+  font-size: 22px;
+  animation: floatUp 8s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0); opacity: 0.8; }
+  100% { transform: translateY(-110vh); opacity: 0; }
+}
+</style>
+
+<div class="container">
+
+<h1>My Love 🤍✨</h1>
+
+<h2>
+💬 `r days_messaging` days since we started talking <br>
+💞 `r days_dating` days of officially being yours
+</h2>
+
+<div class="section">
+<p>
+Everything with you since we started talking has just… made sense.
+And since 25 November 2024, loving you has been the easiest,
+most natural thing I have ever done.
+</p>
+
+<p>
+I am so unbelievably proud of you.
+Watching you handle MM, work, university — all of it —
+and still somehow making me feel loved, reassured, and safe every single day
+blows me away.
+</p>
+
+<p>
+You never make me feel like I’m too much.
+You never make me feel crazy.
+You never make me feel dramatic.
+You make me feel chosen 🤍
+</p>
+</div>
+
+<button onclick="showReasons()">💖 Reasons I Love You</button>
+
+<div id="reasonsBox" class="hidden">
+  <ol class="reasons-list">
+    <li>The way you make me feel safe.</li>
+    <li>How proud I am of you every single day.</li>
+    <li>Your cutest little laugh.</li>
+    <li>The way you never think I’m too much.</li>
+    <li>How deeply you care about me.</li>
+    <li>The way you cuddle my teddies.</li>
+    <li>Falling asleep with you.</li>
+    <li>How you always prioritise me.</li>
+    <li>The way you handle everything so strongly.</li>
+    <li>That you would do anything just to make me smile.</li>
+    <li>That you are happy to do anything as long as it is with me.</li>
+    <li>How easy loving you feels.</li>
+    <li>Because you’re my weird little idiot 🤍</li>
+  </ol>
+</div>
+
+<div class="section love-list">
+<p>I love wanting you.</p>
+<p>I love hugging you.</p>
+<p>I love cuddling you.</p>
+<p>I love calling you.</p>
+<p>I love when you put me to sleep.</p>
+<p>I love when you comfort me.</p>
+<p>I love how you make me laugh.</p>
+<p>I love how much you make me smile.</p>
+<p>I love how safe I feel in your arms.</p>
+<p>I love that you’re my weird little idiot 🥹</p>
+<p>I love when you cuddle my teddies and fall asleep on my lap.</p>
+</div>
+
+<div class="section">
+<p>
+I get so excited thinking about our future. ✈️🏡💍
+Traveling together.
+Building a home together.
+A wedding.
+A family.
+Late nights in the kitchen.
+Slow mornings in bed.
+Growing old together.
+</p>
+
+<p>
+If you’re wondering about the song, it’s <em>Wildfire</em> from <em>The Longest Ride</em> 🎬
+That film always felt like the perfect love…
+and somehow, you made that kind of love real.
+</p>
+
+<p>
+You made my “unrealistic” idea of a relationship feel real.
+Everything has been so easy with us — not because life is perfect,
+but because we choose each other in it.
+
+I hope I can make you feel even just a tiny bit as loved 
+as you make me feel every single day 🥹💗
+
+Because the way you love me?   
+It’s the safest, most incredible feeling.   
+You make me feel so unbelievably cherished and chosen and cared for    
+in ways I didn’t even know I needed.   
+And if I could give you even a fraction of that back,   
+I’d feel so lucky. 💞
+<p>
+
+<p>
+I don’t take you for granted. Not for a second.
+And I’m sorry I didn’t ask you to be my Valentine…
+But I hope this makes up for it.
+</p>
+</div>
+
+<button onclick="revealLetter()">💌 Open My Heart</button>
+
+<div id="hiddenMessage" class="hidden">
+  <p style="margin-top:30px; font-size:20px;">
+  I choose you. Yesterday. Today. Tomorrow.
+  And for every version of life we get to live together. 🤍
+  </p>
+</div>
+
+<div class="section">
+  <h2>🌹 Will you be my Everything?</h2>
+
+  <button onclick="sayYes()">Yes 🤍</button>
+  <button onclick="sayNo()">No 😌</button>
+
+  <div id="valentineResult" style="margin-top:20px; font-size:24px;"></div>
+</div>
+
+</div>
+<script>
+function sayYes() {
+  document.getElementById("valentineResult").innerHTML =
+    "💋💋💋 UMMAAAAAAAAAAAAAA 😚 I LOVE YOU 🤍";
+}
+
+function sayNo() {
+  alert("Hmm… that doesn’t seem right. Try again 😌💕");
+}
+</script>
